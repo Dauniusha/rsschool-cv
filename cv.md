@@ -47,3 +47,8 @@ void NullCheker(vector<vector <Square>> &square, const int size, const int x, co
 # Work experience
 
 None
+# Education
+
+1. Middle school №46 Gomel
+1. Gomel city lyceum №1
+1. BSUIR (studying)
