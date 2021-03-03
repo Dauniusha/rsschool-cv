@@ -2,7 +2,7 @@
 
 **Name:** Daniil Yahiptsau\
 **Address:** Belarus, Minsk\
-**Phone:** +375-44-546-54-74\
+**Phone:** +375-44-536-54-74\
 **Date of birth:** 4 September 2002\
 **Age:** 18\
 **GitHub** <https://github.com/Dauniusha/rsschool-cv>
