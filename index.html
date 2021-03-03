@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>My CV</title>
+    </head>
+    <body>
+        <header>
+            <h1>My CV</h1>
+        </header>
+    <main>
+        <a href="https://github.com/Dauniusha">
+            <figure class="img">
+                <img
+                    src="https://avatars.githubusercontent.com/u/78425928?s=460&u=0e3fba586b3bcca727047dd6e152af5e71870bca&v=4",
+                    alt="my avatar"
+                >
+                <figcaption>My GitHub account</figcaption>
+            </figure>
+        </a>
+        <div class="information">
+            <h2>Personal information</h2>
+            <span class="myH">
+                Name: <span class="info">Daniil Yahiptsau</span> <br>
+                Address: <span class="info">Belarus, Minsk</span> <br>
+                Phone: <span class="info">+375-44-546-54-74</span> <br>
+                Date of birth: <span class="info">4 September 2002</span> <br>
+                Age: <span class="info">18</span> <br> <br>
+            </span>
+            <a href="https://github.com/Dauniusha/rsschool-cv">GitHub</a>
+        </div>
+        <div class="information">
+            <h2>About me</h2>
+            <p>
+                I am a hard worker when it comes to what I am fond of. And I am good at math.<br>
+                I want to try myself as a web developer.
+            </p>
+        </div>
+        <div class="infotmation">
+            <h2>Skills</h2>
+            <ul>
+                <li>
+                    c++ (6kyu)
+                    <a href="https://www.codewars.com/users/Dauniusha">codewars</a>
+                </li>
+                <li>basic level JS CCS and HTML</li>
+                <li>intermediate level of English</li>
+                <li>pre-intermediate level of French</li>
+            </ul>
+            <h3>example of my code on c++</h3>
+            <div class="codeExample">
+                <pre>
+//This function opens squares with zeros in the game "Minesweeper"
+void NullCheker(vector<vector <Square>> &square, const int size, const int x, const int y)
+{
+	square[x][y].SetStatus(common);
+	for (int i = x - 1; i < x + 2; i++)
+	{
+		if ((i < 0) || (i > size - 1))
+			continue;
+		for (int j = y - 1; j < y + 2; j++)
+		{
+			if ((j < 0) || (j > size - 1))
+				continue;
+			else
+				if (square[i][j].GetStatus() == null)
+					NullCheker(square, size, i, j);
+				else
+					square[i][j].SquareOpening();
+		}
+	}
+}
+                </pre>
+            </div>
+        </div>
+        <div class="information">
+            <h2>Work experience</h2>
+            <p>None</p>
+        </div>
+        <div class="information">
+            <h2>Education</h2>
+            <ol>
+                <li>Middle school №46 Gomel</li>
+                <li>Gomel city lyceum №1</li>
+                <li>BSUIR (studying)</li>
+            </ol>
+        </div>
+    </main>
+    <footer>
+        <a id="logoLink" href="https://rs.school/js/">
+        <img id="logo" src="https://rs.school/images/rs_school_js.svg" alt="Rs school emblem">
+        </a>
+    </footer>
+    </body>
+</html>
